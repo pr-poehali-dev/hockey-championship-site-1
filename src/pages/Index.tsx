@@ -45,7 +45,7 @@ const Index = () => {
   ]);
 
   const [teams] = useState<Team[]>([
-    { id: 1, name: 'ЦСКА', logo: '🏒', games: 20, wins: 15, losses: 5, points: 45 },
+    { id: 1, name: 'Ижсталь', logo: '🏒', games: 20, wins: 15, losses: 5, points: 45 },
     { id: 2, name: 'СКА', logo: '⚡', games: 20, wins: 14, losses: 6, points: 42 },
     { id: 3, name: 'Спартак', logo: '🔴', games: 20, wins: 13, losses: 7, points: 39 },
     { id: 4, name: 'Динамо', logo: '💙', games: 20, wins: 12, losses: 8, points: 36 },
